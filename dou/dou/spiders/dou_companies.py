@@ -8,8 +8,8 @@ from scrapy.http import HtmlResponse
 
 driver = webdriver.Chrome()
 
-class DouCompaniesV2Spider(scrapy.Spider):
-    name = 'dou_companies_v2'
+class DouCompaniesSpider(scrapy.Spider):
+    name = 'dou_companies'
     allowed_domains = ['https://jobs.dou.ua/companies/']
     start_urls = ['https://jobs.dou.ua/companies//']
 
